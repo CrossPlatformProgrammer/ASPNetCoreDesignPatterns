@@ -7,9 +7,9 @@ A comprehensive collection of design pattern implementations in ASP.NET Core to 
 - [Introduction](docs/Introduction.md)
 - [Getting Started](docs/GettingStarted.md)
 - [Design Patterns](#design-patterns)
-  - [Creational](src/Patterns/Creational/)
-  - [Structural](src/Patterns/Structural/)
-  - [Behavioral](src/Patterns/Behavioral/)
+  - [Creational](src/ASPNetCoreDesignPatterns/Patterns/Creational/)
+  - [Structural](src/ASPNetCoreDesignPatterns/Patterns/Structural/)
+  - [Behavioral](src/ASPNetCoreDesignPatterns/Patterns/Behavioral/)
 - [Testing](tests/)
 - [Contributing](CONTRIBUTING.md)
 - [License](LICENSE)
@@ -17,16 +17,16 @@ A comprehensive collection of design pattern implementations in ASP.NET Core to 
 ## Design Patterns
 
 ### Creational
-- [Singleton](src/Patterns/Creational/Singleton/README.md)
-- [Factory Method](src/Patterns/Creational/FactoryMethod/README.md)
+- [Singleton](src/ASPNetCoreDesignPatterns/Patterns/Creational/Singleton/README.md)
+- [Factory Method](src/ASPNetCoreDesignPatterns/Patterns/Creational/FactoryMethod/README.md)
 
 ### Structural
-- [Adapter](src/Patterns/Structural/Adapter/README.md)
-- [Decorator](src/Patterns/Structural/Decorator/README.md)
+- [Adapter](src/ASPNetCoreDesignPatterns/Patterns/Structural/Adapter/README.md)
+- [Decorator](src/ASPNetCoreDesignPatterns/Patterns/Structural/Decorator/README.md)
 
 ### Behavioral
-- [Observer](src/Patterns/Behavioral/Observer/README.md)
-- [Strategy](src/Patterns/Behavioral/Strategy/README.md)
+- [Observer](src/ASPNetCoreDesignPatterns/Patterns/Behavioral/Observer/README.md)
+- [Strategy](src/ASPNetCoreDesignPatterns/Patterns/Behavioral/Strategy/README.md)
 
 ## Contributing
 Contributions are welcome! Please see [Contributing](CONTRIBUTING.md) for guidelines.
