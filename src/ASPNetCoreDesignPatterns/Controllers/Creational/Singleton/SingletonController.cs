@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ASPNetCoreDesignPatterns.Controllers.Creational
+namespace ASPNetCoreDesignPatterns.Controllers.Creational.Singleton
 {
     [Route("Creational/[controller]/[action]")]
     [ApiController]

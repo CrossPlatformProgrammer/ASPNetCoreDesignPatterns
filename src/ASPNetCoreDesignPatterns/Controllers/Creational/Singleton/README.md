@@ -8,11 +8,7 @@ This allows injecting the singleton instance into controllers or other classes a
  services.AddSingleton<Singleton>();
 
 ```
-
-```csharp
-
- services.AddSingleton<Singleton>();
-
+ 
 ```
 ## Injection:
 
@@ -20,8 +16,12 @@ Inject the singleton into the controller constructor via dependency injection:
 
 ```csharp
 
- services.AddSingleton<Singleton>();
+   private readonly Singleton _singleton;
 
+        public SingletonController(Singleton singleton) // Inject via DI (recommended)
+        {
+            _singleton = singleton;
+        }
 ```
 ## Considerations:
 
