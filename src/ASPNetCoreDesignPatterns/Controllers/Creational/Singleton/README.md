@@ -5,7 +5,7 @@ Register the Singleton class as a singleton service in ASP.NET Core's dependency
 This allows injecting the singleton instance into controllers or other classes as needed, promoting testability and looser coupling.
 ```csharp
 
- services.AddSingleton<Singleton>();
+services.AddSingleton<Singleton>();
 
 ```
 ## Dependency Injection (Recommended):
@@ -14,12 +14,12 @@ Inject the singleton into the controller constructor via dependency injection:
 
 ```csharp
 
-   private readonly Singleton _singleton;
+private readonly Singleton _singleton;
 
-        public SingletonController(Singleton singleton) // Inject via DI (recommended)
-        {
-            _singleton = singleton;
-        }
+public SingletonController(Singleton singleton) // Inject via DI (recommended)
+{
+    _singleton = singleton;
+}
 ```
 ## Considerations:
 
