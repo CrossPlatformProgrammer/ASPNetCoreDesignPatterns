@@ -1,4 +1,4 @@
-## Dependency Injection (Recommended):
+
 
 ## Improved Testability and Flexibility:
 Register the Singleton class as a singleton service in ASP.NET Core's dependency injection container (DIC).
@@ -8,11 +8,9 @@ This allows injecting the singleton instance into controllers or other classes a
  services.AddSingleton<Singleton>();
 
 ```
- 
-```
-## Injection:
-
+## Dependency Injection (Recommended):
 Inject the singleton into the controller constructor via dependency injection:
+ 
 
 ```csharp
 
