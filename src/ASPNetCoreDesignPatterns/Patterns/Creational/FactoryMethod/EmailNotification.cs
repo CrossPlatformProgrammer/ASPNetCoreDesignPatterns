@@ -2,10 +2,6 @@
 {
     public class EmailNotification : INotification
     {
-        public static INotification CreateNotification()
-        {
-            return new EmailNotification();
-        }
         public void Send(string recipient, string message)
         {
             // Implementation for sending email

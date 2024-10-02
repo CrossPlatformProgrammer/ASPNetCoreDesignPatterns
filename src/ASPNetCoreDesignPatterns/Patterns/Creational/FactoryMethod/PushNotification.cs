@@ -2,10 +2,6 @@
 {
     public class PushNotification : INotification
     {
-        public static INotification CreateNotification()
-        {
-            return new PushNotification();
-        }
         public void Send(string recipient, string message)
         {
             // Implementation for sending push notification
