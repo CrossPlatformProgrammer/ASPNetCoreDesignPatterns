@@ -11,11 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNetCoreDesignPatterns", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.Tests", "tests\Patterns.Tests\Patterns.Tests.csproj", "{8649B302-C07C-4E12-9BBB-C09DE1A74BB2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{6CF71F22-0A23-41E0-BEE4-FE36EFA04BFE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{9E3DCA74-559B-4E81-8D64-B916F0E3259B}"
 	ProjectSection(SolutionItems) = preProject
-		DesignPatternsOverview.md = DesignPatternsOverview.md
-		GettingStarted.md = GettingStarted.md
-		Introduction.md = Introduction.md
+		docs\DesignPatternsOverview.md = docs\DesignPatternsOverview.md
+		docs\GettingStarted.md = docs\GettingStarted.md
+		docs\Introduction.md = docs\Introduction.md
 	EndProjectSection
 EndProject
 Global

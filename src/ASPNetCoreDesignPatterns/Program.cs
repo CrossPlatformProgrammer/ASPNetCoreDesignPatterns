@@ -1,4 +1,5 @@
 
+using ASPNetCoreDesignPatterns.Patterns.Creational.FactoryMethod;
 using ASPNetCoreDesignPatterns.Patterns.Creational.Singleton;
 
 namespace ASPNetCoreDesignPatterns
@@ -15,6 +16,14 @@ namespace ASPNetCoreDesignPatterns
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            // Register factories
+            builder.Services.AddTransient<EmailNotificationFactory>();
+            builder.Services.AddTransient<SmsNotificationFactory>();
+            builder.Services.AddTransient<PushNotificationFactory>();
+
+            // Register a factory resolver
+            builder.Services.AddSingleton<NotificationFactoryResolver>();
 
             // Register the Singleton service
             builder.Services.AddSingleton<Singleton>();
